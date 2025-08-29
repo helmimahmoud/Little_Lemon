@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # local app
-    'restaurant'
+    'restaurant',           # <-- Add comma here
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
